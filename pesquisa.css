@@ -1,0 +1,71 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #FFC107;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  h1, h2, h3, h4, p {
+    color: #333;
+  }
+  
+  /* Estilos específicos para a página de pesquisa */
+  #searchSection {
+    margin-bottom: 20px;
+  }
+  
+  #searchInput {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  #searchButton {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #searchButton:hover {
+    background-color: #45a049;
+  }
+  
+  #searchResultsSection {
+    display: none;
+    margin-top: 20px;
+  }
+  
+  #searchResults {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .productItem {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .productImage {
+    width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+  }
+  

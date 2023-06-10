@@ -1,0 +1,74 @@
+ /* Estilos gerais */
+ body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #FFC107;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}  
+
+main {
+  padding: 20px;
+}
+
+h1, h2, h3, h4, p {
+  color: #333;
+}
+
+/* Estilos específicos para o carrinho de compras */
+#cartItemsSection {
+  margin-top: 20px;
+}
+
+.productItem {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.productImage {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.productInfo {
+  flex-grow: 1;
+}
+
+.productName {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.productPrice {
+  font-size: 14px;
+  color: #888;
+}
+
+.removeButton {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.removeButton:hover {
+  background-color: #d32f2f;
+}
+
+/* Estilos específicos para o botão de voltar para a home */
+#backToHomeButton {
+  margin-top: 20px;
+}

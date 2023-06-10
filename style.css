@@ -1,0 +1,75 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #FFC107;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }  
+  
+  main {
+    padding: 20px;
+  }
+  
+  h1, h2, h3, h4, p {
+    color: #333;
+  }
+  
+  /* Estilos específicos para a lista de produtos */
+  #productList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .productItem {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .productImage {
+    width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+  }
+  
+  /* Estilos específicos para os resultados da pesquisa */
+  #searchResultsSection {
+    display: none;
+    margin-top: 20px;
+  }
+
+  #searchButton {
+    font-size: 24px;
+    line-height: 1;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    outline: none;
+  }
+  
+  #searchResults {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  /* Estilos específicos para o carrinho de compras */
+  #cartItems {
+    margin-top: 20px;
+  }
+  
+  .cartItem {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
